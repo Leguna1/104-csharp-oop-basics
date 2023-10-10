@@ -1,3 +1,3 @@
-﻿public class People{
-    
-}
+﻿using P1People;
+
+People

@@ -4,6 +4,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "104-csharp-oop-basics", "10
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P1People", "P1People\P1People.csproj", "{A5161975-9F99-4FE6-9307-718D76FDB5C1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P2Fields", "P2Fields\P2Fields.csproj", "{BF77B11D-D4BC-48DD-BFC4-80F754085573}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P2_1PlayerGold", "P2_1PlayerGold\P2_1PlayerGold.csproj", "{861F6855-6C2D-437A-8AC9-C3686D6DE8F4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +22,13 @@ Global
 		{A5161975-9F99-4FE6-9307-718D76FDB5C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A5161975-9F99-4FE6-9307-718D76FDB5C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A5161975-9F99-4FE6-9307-718D76FDB5C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF77B11D-D4BC-48DD-BFC4-80F754085573}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF77B11D-D4BC-48DD-BFC4-80F754085573}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF77B11D-D4BC-48DD-BFC4-80F754085573}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF77B11D-D4BC-48DD-BFC4-80F754085573}.Release|Any CPU.Build.0 = Release|Any CPU
+		{861F6855-6C2D-437A-8AC9-C3686D6DE8F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{861F6855-6C2D-437A-8AC9-C3686D6DE8F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{861F6855-6C2D-437A-8AC9-C3686D6DE8F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{861F6855-6C2D-437A-8AC9-C3686D6DE8F4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
