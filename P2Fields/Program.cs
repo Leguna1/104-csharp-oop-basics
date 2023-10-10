@@ -31,6 +31,3 @@ if (vipSubscription == "y")
     Console.WriteLine($"PvP Mode [Active]:{status.active}");
 else if (vipSubscription =="n")
     Console.WriteLine($"PvP Mode [Disabled]:{status.inactive}");
-
-
-
