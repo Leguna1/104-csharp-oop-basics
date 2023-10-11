@@ -2,5 +2,10 @@
 
 public class Player
 {
-    public int exp = 100;
+    public int Damage;
+
+    public void Attack(Player target)
+    {
+        target.Damage++;
+    }
 }

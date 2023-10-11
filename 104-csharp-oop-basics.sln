@@ -26,6 +26,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P4_2AllTheSame", "P4_2AllTh
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RPG", "RPG\RPG.csproj", "{C8533E6B-F79B-4BA2-A5EB-F583C666B5E7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P4_3PassingReferences", "P4_3PassingReferences\P4_3PassingReferences.csproj", "{95CFF020-38E3-41F3-AFE2-13380AEF77D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P5_1Father", "P5_1Father\P5_1Father.csproj", "{0AB51497-3E51-4D4B-BD74-AB4390AA8FD9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -84,5 +88,13 @@ Global
 		{C8533E6B-F79B-4BA2-A5EB-F583C666B5E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C8533E6B-F79B-4BA2-A5EB-F583C666B5E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C8533E6B-F79B-4BA2-A5EB-F583C666B5E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95CFF020-38E3-41F3-AFE2-13380AEF77D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95CFF020-38E3-41F3-AFE2-13380AEF77D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95CFF020-38E3-41F3-AFE2-13380AEF77D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95CFF020-38E3-41F3-AFE2-13380AEF77D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AB51497-3E51-4D4B-BD74-AB4390AA8FD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AB51497-3E51-4D4B-BD74-AB4390AA8FD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AB51497-3E51-4D4B-BD74-AB4390AA8FD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AB51497-3E51-4D4B-BD74-AB4390AA8FD9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
