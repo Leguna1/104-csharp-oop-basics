@@ -6,6 +6,6 @@ public class ScoreCounter
 
     public void IncreaseScore() //Method
     {
-        
+        Score++;
     }
 }
