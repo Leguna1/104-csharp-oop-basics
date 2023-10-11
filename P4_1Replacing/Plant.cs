@@ -1,27 +1,22 @@
-﻿namespace P4_1Replacing;
-public class Plant
+﻿public class Plant
 {
-    private static bool? isGrown;
+    public bool isGrown;
 
-    public Plant()
-    {
-        isGrown = false;
-    }
     public void PrintStatus()
     {
+        if (isGrown == true)
+        {
+            Console.WriteLine("The seed has grown into a Tree.");
+        }
+
         if (isGrown == false)
         {
-            Console.WriteLine("Plant is a seed.");
-        }
-        else
-        {
-            Console.WriteLine("Plant is a tree.");
-            Console.WriteLine("Plant has already grown.");
+            Console.WriteLine("It's still a seed.");
         }
     }
     public void Grow()
     {
-            Console.WriteLine("Plant is growing");
+        Console.WriteLine("The seed is growing..");
         isGrown = true;
     }
 }
