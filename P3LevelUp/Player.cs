@@ -2,6 +2,6 @@
 
 public class Player
 {
-    public int experience;
-    public int level;
+    public int Experience = 1;
+    public int Level = 0;
 }

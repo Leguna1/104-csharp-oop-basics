@@ -1,11 +1,11 @@
 ﻿using P2_2ItemValues;
 
-Item[] items = new Item[3];
+var items = new Item[3];
 
 items[0] = new Item { goldValue = 100 };
 items[1] = new Item { goldValue = 200 };
 items[2] = new Item { goldValue = 300 };
-for (int i = 0; i < items.Length; i++)
+for (var i = 0; i < items.Length; i++)
 {
     Console.WriteLine($"Item {i + 1}: Gold Value = {items[i].goldValue}");
 }

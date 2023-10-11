@@ -1,4 +1,12 @@
 ﻿using P3LevelUp;
 
-Player x = new Player();
-x.experience
+var x = new Player();
+
+void GrantExperience()
+{
+    Console.WriteLine("0 Level and 0 Experience.");
+    var input = int.Parse(Console.ReadLine()!);
+    
+    
+}
+GrantExperience();

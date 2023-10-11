@@ -1,4 +1,4 @@
-﻿Player player = new Player();
+﻿var player = new Player();
 player.gold = 200;
 Console.WriteLine($"Player's Gold: {player.gold}");
 
