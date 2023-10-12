@@ -32,6 +32,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P5_1Father", "P5_1Father\P5
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P5_2Harvest", "P5_2Harvest\P5_2Harvest.csproj", "{688952B7-0635-417C-88D6-4AB17453FF72}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P5Classified", "P5Classified\P5Classified.csproj", "{D99B5CEA-06AA-4C44-9E76-CF00D14424FB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -102,5 +104,9 @@ Global
 		{688952B7-0635-417C-88D6-4AB17453FF72}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{688952B7-0635-417C-88D6-4AB17453FF72}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{688952B7-0635-417C-88D6-4AB17453FF72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D99B5CEA-06AA-4C44-9E76-CF00D14424FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D99B5CEA-06AA-4C44-9E76-CF00D14424FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D99B5CEA-06AA-4C44-9E76-CF00D14424FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D99B5CEA-06AA-4C44-9E76-CF00D14424FB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
