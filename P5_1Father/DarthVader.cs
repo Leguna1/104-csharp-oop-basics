@@ -8,6 +8,6 @@ public class DarthVader
 
     public void Father()
     {
-        Console.WriteLine($"His last name is {lastName}, hair color {hairColor} and favorite weapon {weapon}");
+        Console.WriteLine($"His last name is {lastName}, he had {hairColor} and his favorite weapon was {weapon}");
     }
 }
