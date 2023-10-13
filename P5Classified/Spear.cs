@@ -1,12 +1,12 @@
 ﻿namespace P5Classified;
 
-public class Spear : Shield
+public class Spear : CombatTool
 {
-    public string name = "Spear";
-    public string condition = "broken";
-
-    public void Child3()
+   public void Spesword()
     {
-        Console.WriteLine($"Why is this {name} {condition}.");
+        CanBeEaten = false;
+        KnownForVitamins = false;
+        UsedInCombat = true;
+        LivingBeing = false;
     }
 }

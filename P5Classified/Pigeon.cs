@@ -1,6 +1,6 @@
 ﻿namespace P5Classified;
 
-public class Pigeon
+public class Pigeon : Animalia
 {
-    
+   
 }

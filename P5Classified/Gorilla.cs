@@ -1,6 +1,6 @@
 ﻿namespace P5Classified;
 
-public class Gorilla
+public class Gorilla : Animalia
 {
     
 }

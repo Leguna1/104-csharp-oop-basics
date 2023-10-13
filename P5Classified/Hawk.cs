@@ -1,6 +1,6 @@
 ﻿namespace P5Classified;
 
-public class Hawk
+public class Hawk : Animalia
 {
     
 }

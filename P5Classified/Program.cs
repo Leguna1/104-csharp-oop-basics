@@ -1,13 +1,35 @@
 ﻿using P5Classified;
 
-Console.WriteLine("Entering food kitchen..");
-Nutrition nutrition =new Nutrition();
-nutrition.Edible();
-
-Console.WriteLine();
-
-Console.WriteLine("Welcome to the armory");
-Armory combat = new Armory();
-combat.Equipment();
-
-
+Console.WriteLine("##################");
+Food food = new Food();
+food.Edible();
+food = new Apple();
+Console.WriteLine(food.CanBeEaten);
+food = new Pear();
+Console.WriteLine(food.CanHoldInHand);
+food = new Banana();
+Console.WriteLine(food.KnownForVitamins);
+Console.WriteLine(":::::::::::::::::::");
+CombatTool tool = new Axe();
+Console.WriteLine(tool.CanBeEaten);
+tool =new Shield();
+Console.WriteLine(tool.LivingBeing);
+tool =new Spear();
+Console.WriteLine(tool.UsedInCombat);
+tool =new Sword();
+Console.WriteLine(tool.CanHoldInHand);
+tool =new Pencil();
+Console.WriteLine(tool.KnownForVitamins);
+Console.WriteLine("===============");
+Animalia animal = new Animalia();
+Console.WriteLine(animal.LivingBeing);
+animal = new Chimpanzee();
+Console.WriteLine(animal.CanBeEaten);
+animal = new Gorilla();
+Console.WriteLine(animal.UsedInCombat);
+animal = new Hawk();
+Console.WriteLine(animal.KnownForVitamins);
+animal = new Pigeon();
+Console.WriteLine(animal.CanHoldInHand);
+animal = new Sparrow();
+Console.WriteLine(animal.LivingBeing);

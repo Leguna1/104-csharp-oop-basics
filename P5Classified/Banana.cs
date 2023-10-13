@@ -1,12 +1,6 @@
 ﻿namespace P5Classified;
 
-public class Banana : Pear
+public class Banana : Food
 {
-    public string yellow = "Yellow";
-    
-    public void Child2()
-    {
-        Console.WriteLine($"This Banana is {yellow}");
-        
-    }
+   
 }

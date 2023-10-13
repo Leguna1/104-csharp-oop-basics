@@ -1,11 +1,8 @@
 ﻿namespace P5Classified;
-public class Apple : Banana
+public class Apple : Food
 {
-    public string color = "Red";
-    
-    public void Child1()
+    public void Salty()
     {
-        Console.WriteLine($"This Apple is {color}");
-       
+        Console.WriteLine("I'm known for many vitamins");
     }
 }

@@ -1,12 +1,14 @@
 ﻿namespace P5Classified;
 
-public class Axe : Sword
+public class Axe : CombatTool
 {
-    public string name = "Axe";
-    public string material = "steel";
-    
-    public void Child1()
+
+    public void Axspear()
     {
-        Console.WriteLine($"This {name} is made of {material}.");
+        if (UsedInCombat)
+        {
+            Console.WriteLine("Yes you can hold me in your hand.");
+        }
     }
+    
 }

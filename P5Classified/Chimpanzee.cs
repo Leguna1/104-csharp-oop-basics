@@ -1,6 +1,6 @@
 ﻿namespace P5Classified;
 
-public class Chimpanzee
+public class Chimpanzee : Animalia
 {
-    
+
 }

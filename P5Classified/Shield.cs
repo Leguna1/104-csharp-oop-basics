@@ -1,13 +1,13 @@
 ﻿namespace P5Classified;
 
-public class Shield
+public class Shield : CombatTool
 {
-    public string name = "Shield";
-    public string materia = "mithril";
-
-    public void Child4()
+    public void JustShield()
     {
-        
-        Console.WriteLine($"Woah, this {name} is made of {materia}.");
+        CanBeEaten = false;
+        CanHoldInHand = true;
+        KnownForVitamins = false;
+        UsedInCombat = true;
+        LivingBeing = false;
     }
 }

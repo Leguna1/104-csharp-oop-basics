@@ -1,10 +1,6 @@
 ﻿namespace P5Classified;
 
-public class Bread
+public class Bread : Food
 {
-    public string look = "Delicious";
-    public void Child4()
-    {
-        Console.WriteLine($"This Bread looks {look}");
-    }
+    
 }
